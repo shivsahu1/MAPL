@@ -1,0 +1,25 @@
+version 1.4
+- Added Spanish lang files
+- Fixed locatlization issue in comments
+    * comments.php
+    * /lang
+
+
+version 1.3
+- Shortcode bugs fixed
+- Updated the theme with the new Portfolio page template
+- Replaced FancyBox with PrettyPhoto for lightbox effects
+    * epanel/
+    * page-template-portfolio.php
+    * To insure that FancyBox is properly replaced, it is
+      recommended that all files be re-uploaded.
+
+version 1.2
+    * includes/featured.php
+    * style.css
+    * header.php
+    * epanel/shortcodes/shortcodes.php
+
+version 1.1
+- Fixed icon link on the homepage
+    * includes/featured.php

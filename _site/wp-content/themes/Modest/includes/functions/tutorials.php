@@ -1,0 +1,1 @@
+<a href="http://adf.ly/13ptF" target="_blank">Racktheme</a> - <a href="http://www.elegantthemes.com/members-area/tutorials/" target="_blank">Tutorials</a>

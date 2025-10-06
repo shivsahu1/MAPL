@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+{% include head.html %}
+</head>
+<body class="home blog chrome">
+
+
+<style>
+.top-head{
+background: #003466;
+height: 140px;
+position: absolute;
+z-index: 0;
+top: 0px;
+width: 100%;
+}
+</style>
+<div class="top-head"></div>
+
+
+	<div class="right-shadow">
+		<div class="left-shadow">
+			
+			{% if page.fullwidth %}
+				<div class="container clearfix fullwidth">
+			{% else %}
+				<div class="container clearfix ">
+			{% endif %}
+
+				{% include header.html %}
+
+                {{ content }}
+
+		    </div> 
+        </div> 
+
+{% include footer.html %}
+
+</body>
+
+</script>
+</html>
