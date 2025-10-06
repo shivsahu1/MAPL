@@ -1,0 +1,1 @@
+jekyll build jekyll build -s /home/ubuntu/mahaactiveindia-jekyll-code/ -d /home/ubuntu/mahaactiveindia-jekyll-output/
